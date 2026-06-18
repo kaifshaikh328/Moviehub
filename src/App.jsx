@@ -2,8 +2,11 @@ import React from 'react'
 import image from './assets/image.png'
 import movies from './components/movies.json'
 import search from './assets/search.svg'
-function App () {
 
+function App () {
+ const redirectwindow =()=>{
+
+ }
   
 
     return (
@@ -28,7 +31,7 @@ function App () {
   </header>
 
   {/* Movies Grid */}
-  <main className="max-w-7xl mx-auto px-6 pb-10">
+  <main className="max-w-7xl mx-auto px-6 pb-10" onClick={redirectwindow}>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       {movies.map((movie, index) => (
         <div
@@ -59,7 +62,7 @@ function App () {
                 <span className="font-semibold text-white">
                   Episodes:
                 </span>{" "}
-                {movie["Total Episodes"]}
+                {movie.TotalEpisodes}
               </p>
 
               <p>
@@ -81,7 +84,11 @@ function App () {
       ))}
     </div>
   </main>
+  
+  
 </div>
+
+
 
     )
   }

@@ -1,19 +1,90 @@
 [
-        {
-            "id": 1,
-            "image": "https://m.media-amazon.com/images/M/MV5BZjA3OGM2N2MtN2ZiOS00MWQxLTg0YmYtMTcxODMyYzA4YzYwXkEyXkFqcGc@._V1_FMjpg_UY576_.jpg",
-            "title": "The tail of Nine Tailed",
-            "genre": "Fantasy, Romance",
-            "description": "A nine-tailed fox, who has lived for 1000 years, falls in love with a human and tries to live a normal life with him. However, their love is forbidden and they face many obstacles along the way.",
-            "type": "web series",
-            "Total Episodes": 16,
-            "Language": "Hindi, Korean",
-            "year": 2020
-
-        }
+  {
+    "id": 1,
+    "image": "https://m.media-amazon.com/images/M/MV5BZjA3OGM2N2MtN2ZiOS00MWQxLTg0YmYtMTcxODMyYzA4YzYwXkEyXkFqcGc@._V1_FMjpg_UY576_.jpg",
+    "title": "The Tale of the Nine Tailed",
+    "genre": "Fantasy, Romance",
+    "description": "A nine-tailed fox who has lived for 1000 years falls in love with a human and tries to live a normal life.",
+    "type": "Web Series",
+    "TotalEpisodes": 16,
+    "Language": "Hindi, Korean",
+    "year": 2020
+  },
+  {
+    "id": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2NHIypvxnE0iIqkE64cS_PKC6-mVWTEeXNNzVhP-fLhlSREK",
+    "title": "Wanted",
+    "genre": "Action",
+    "description": "An American action movie starring James McAvoy and Angelina Jolie.",
+    "length": "110 min",
+    "type": "Movie",
+    "Language": "Hindi, English",
+    "year": 2008
+  },
+  {
+    "id": 3,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmEzNTY4NzUtOTNkZi00M2NmLWI4NzQtN2YwNTJlMjA5ZTAxXkEyXkFqcGc@._V1_.jpg",
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "description": "A group of kids uncover supernatural mysteries and secret government experiments.",
+    "type": "Web Series",
+    "TotalEpisodes": 34,
+    "Language": "Hindi, English",
+    "year": 2016
+  },
+  {
+    "id": 4,
+    "image": "https://m.media-amazon.com/images/M/MV5BNmQxZDNjZjEtYzIwYS00YzZjLWI2OWYtNTU5MmRlNmQ0YzEwXkEyXkFqcGc@._V1_.jpg",
+    "title": "Money Heist",
+    "genre": "Crime, Thriller",
+    "description": "A criminal mastermind recruits a team to execute the biggest heist in history.",
+    "type": "Web Series",
+    "TotalEpisodes": 41,
+    "Language": "Hindi, Spanish, English",
+    "year": 2017
+  },
+  {
+    "id": 5,
+    "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZTk2NzAtYzBlNC00MjZhLWE0MmEtOWQzN2M4MmRhYjQ5XkEyXkFqcGc@._V1_.jpg",
+    "title": "3 Idiots",
+    "genre": "Comedy, Drama",
+    "description": "Three engineering students navigate friendship, education and life challenges.",
+    "length": "170 min",
+    "type": "Movie",
+    "Language": "Hindi",
+    "year": 2009
+  },
+  {
+    "id": 6,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3Njg5Ml5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+    "title": "Inception",
+    "genre": "Sci-Fi, Thriller",
+    "description": "A skilled thief enters people's dreams to steal or implant ideas.",
+    "length": "148 min",
+    "type": "Movie",
+    "Language": "Hindi, English",
+    "year": 2010
+  },
+  {
+    "id": 7,
+    "image": "https://m.media-amazon.com/images/M/MV5BZmVkN2E5OTQtN2VhYy00NjMwLTkwM2UtMzk4ZmM2MzI2YzZjXkEyXkFqcGc@._V1_.jpg",
+    "title": "Breaking Bad",
+    "genre": "Crime, Drama",
+    "description": "A chemistry teacher turns to manufacturing drugs after a life-changing diagnosis.",
+    "type": "Web Series",
+    "TotalEpisodes": 62,
+    "Language": "Hindi, English",
+    "year": 2008
+  },
+  {
+    "id": 8,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA0NDk1Nzk0MV5BMl5BanBnXkFtZTcwODI5OTM0Mw@@._V1_.jpg",
+    "title": "Interstellar",
+    "genre": "Adventure, Sci-Fi",
+    "description": "A team of astronauts travel through a wormhole in search of humanity's future.",
+    "length": "169 min",
+    "type": "Movie",
+    "Language": "Hindi, English",
+    "year": 2014
+  }
 ]
-    
-
-
-
-
