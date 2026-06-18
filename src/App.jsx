@@ -4,9 +4,9 @@ import movies from './components/movies.json'
 import search from './assets/search.svg'
 
 function App () {
- const redirectwindow =()=>{
-
- }
+ const redirectwindow = (movie) => {
+  alert(`Opening details for ${movie.title}`);
+};
   
 
     return (
@@ -31,13 +31,14 @@ function App () {
   </header>
 
   {/* Movies Grid */}
-  <main className="max-w-7xl mx-auto px-6 pb-10" onClick={redirectwindow}>
+  <main className="max-w-7xl mx-auto px-6 pb-10">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       {movies.map((movie, index) => (
         <div
-          key={index}
-          className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300"
-        >
+  key={movie.id}
+  onClick={() => redirectwindow(movie)}
+  className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300 cursor-pointer"
+>
           <img
             src={movie.image}
             alt={movie.title}
@@ -58,12 +59,21 @@ function App () {
             </p>
 
             <div className="mt-4 text-sm text-gray-400 space-y-1">
-              <p>
-                <span className="font-semibold text-white">
-                  Episodes:
-                </span>{" "}
-                {movie.TotalEpisodes}
-              </p>
+              {movie.type === "Web Series" ? (
+  <p>
+    <span className="font-semibold text-white">
+      Episodes:
+    </span>{" "}
+    {movie.TotalEpisodes}
+  </p>
+) : (
+  <p>
+    <span className="font-semibold text-white">
+      Length:
+    </span>{" "}
+    {movie.length}
+  </p>
+)}
 
               <p>
                 <span className="font-semibold text-white">
